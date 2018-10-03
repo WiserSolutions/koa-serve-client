@@ -20,8 +20,8 @@ const serveClient = ({
   staticDir = resolve(rootDir, './static'),
   distDir = resolve(rootDir, './dist'),
   indexFile = resolve(distDir, './index.html'),
-  exclude = ::/^\/(?:static|api)\//.test,
-  log = ::console.log // eslint-disable-line no-console
+  exclude = path => /^\/(?:static|api)\//.test(path),
+  log = console.log.bind(console) // eslint-disable-line no-console
 } = {}) => {
   log && log(`Serving /static, /dist, and index in ${rootDir}`)
   return compose([serveStatic(staticDir), serveDist(distDir), serveIndex(indexFile, exclude)])
