@@ -30,7 +30,6 @@
   },
   "dependencies": {
     "koa-compose": "^4.1.0",
-    "koa-mount": "^3.0.0",
     "koa-router": "^7.4.0",
     "koa-static": "^4.0.3"
   }
