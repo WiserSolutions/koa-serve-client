@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WisePricer/koa-serve-client"
+    "url": "git+https://github.com/WiserSolutions/koa-serve-client"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
