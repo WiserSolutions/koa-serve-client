@@ -19,14 +19,13 @@
     "url": "git+https://github.com/WiserSolutions/koa-serve-client"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@wisersolutions/eslint-config": "^1.0.4",
-    "@wisersolutions/eslint-formatter-idea": "^1.0.3",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^3.6.0",
-    "eslint-plugin-react": "^7.13.0",
-    "prettier": "^1.17.1"
+    "@babel/core": "^7.7.4",
+    "@wisersolutions/eslint-config": "^2.0.1",
+    "@wisersolutions/eslint-formatter-idea": "^1.0.5",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "prettier": "^1.19.1"
   },
   "dependencies": {
     "koa-compose": "^4.1.0",
