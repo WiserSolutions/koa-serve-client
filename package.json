@@ -1,6 +1,6 @@
 {
   "name": "@wisersolutions/koa-serve-client",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Plain Koa middleware for serving the client application",
   "main": "index.js",
   "scripts": {
