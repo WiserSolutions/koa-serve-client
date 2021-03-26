@@ -18,10 +18,13 @@
     "type": "git",
     "url": "git+https://github.com/WiserSolutions/koa-serve-client"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.4",
-    "@wisersolutions/eslint-config": "^2.0.1",
-    "@wisersolutions/eslint-formatter-idea": "^1.0.5",
+    "@wisersolutions/eslint-config": "^2.0.6",
+    "@wisersolutions/eslint-formatter-idea": "^1.0.8",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.1",
     "eslint-config-prettier": "^6.7.0",
